@@ -62,7 +62,7 @@ while True:
             students.append(s)
             
             print("입력 데이터 :", s)
-            print(students)
+            print()
             
 
         
