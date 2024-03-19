@@ -20,7 +20,7 @@ class Car:
     def down_speed(self):
         self.__speed -= 10
     def get_speed(self):
-        returnself.__speed
+        return self.__speed
     def get_speed(self):
         return self.__speed
 c1 = Car("white",5,4,0)     # speed : 0

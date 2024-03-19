@@ -27,6 +27,7 @@ while True:
     # 1,홍길동,99,99,87,285,95.0,1
     s = Student(txt_list[1],int(txt_list[2]),int(txt_list[3]),int(txt_list[4]),int(txt_list[0]),int(txt_list[7]))
     students.append(s)
+f.close()
 
 # 리스트 출력
 for stu in students:
